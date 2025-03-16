@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+nav {
+    position: fixed;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    font-weight: 400;
+    line-height: 160px;
+    text-align: left;
+    text-decoration: none;
+    color: #1e1e1e;
+    padding: 0 px;
+}
+
+article {
+    padding: 20px;
+    
+
+}
+
+hr{
+    border-top: 5px #1e1e1e;
+
+}
+
+h2 {
+    color: rgb(70, 70, 70);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3 {
+    color: rgb(70, 70, 70);
+    font-size: 11px;
+    line-height: 14px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 100;
+    width: 500px;
+
+}
+
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 50px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 500px;
+}
+
+li{
+    color: #1e1e1e;
+
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.myHover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+
+}
+
+a[href^="mailto:"] { 
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 400px;
+    text-decoration: underline;
+}
+
+
+
+nav {
+    grid-area: nav;
+}
+ul {
+margin-left: 0px;
+position: fixed;
+}
+
+ul li {
+   list-style: none;
+   display: inline-block;
+   float: right;
+   line-height: 50px;
+}
+
+ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    color: #1e1e1e;
+    padding: 0 10px;
+}
+
+ul li a:hover {
+text-decoration: underline;
+}
+
+ a:active {
+    text-decoration: underline;
+    }
+
+
+
+a[href^="mailto:"]:hover { 
+    color: rgb(99, 89, 233);
+}
+
+
+.img-schrift{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+
+}
+
+.img-info {
+    width: 250px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-big {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+
+}
+
+.img-olu:hover {
+    background: url(img/O_Poster.jpg) no-repeat;
+}
+
+.img-olu {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+
+.img-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.img-schrift:hover {
+background-size: 200%;
+}
+
+.img-info:hover {
+    rotate: -3deg;
+}
+
+.img-pro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 50px;
+
+}
+
+
+
+video {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}
+   
+
+.container {
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.2fr 8fr 0.2fr;
+    grid-template-areas: 
+    "nav main main"
+    "content1 content1 content1"
+    "footer footer footer"
+    ;
+
+}
+
+
+
+
+#bild {
+    grid-area: bild;
+    padding-left: 15px;
+}
+
+main {
+    grid-area: main;
+}
+
+#content1 {
+    grid-area: content1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    grid-area: footer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+body{
+    height: 100vh;
+    display: flex;
+  
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.images {
+    display: flex;
+    width: 100%;
+}
+
+.images img {
+    width: 200px;
+    transition: all 0.15s ease;
+}
+
+/* Allgemeine Button-Stile */
+button {
+    background-color: #808080; /* Grau */
+    color: white; /* Textfarbe */
+    border: none; /* Keine Umrandung */
+    padding: 10px 20px; /* Innenabstand */
+    font-size: 16px; /* Schriftgröße */
+    font-family: Arial, Helvetica, sans-serif; /* Schriftart */
+    border-radius: 15px; /* Abgerundete Ecken */
+    cursor: pointer; /* Zeigt die Hand an, wenn man drüber fährt */
+    text-decoration: none; /* Keine Unterstreichung */
+    display: inline-block; /* Macht den Button inline */
+    transition: background-color 0.3s ease; /* Sanfte Übergangsanimation */
+}
+
+/* Hover-Effekt */
+button:hover {
+    background-color: #e1e1e1; /* Etwas dunkleres Grau beim Hover */
+
+}
+
+/* Für Links, die wie Buttons aussehen */
+a.button-link {
+    display: inline-block;
+    background-color: #b9b9b9; /* Grau */
+    color: rgb(0, 0, 0); /* Textfarbe */
+    padding: 10px 20px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    text-decoration: none; /* Keine Unterstreichung */
+    transition: background-color 0.3s ease;
+}
+
+a.button-link:hover {
+    background-color: #eaeaea; /* Etwas dunkleres Grau beim Hover */
+}
+
+
+@media only screen and (min-width: 136px) {
+
+    .img-schrift{
+        width: 60%;
+        padding-top: 25px;
+    }
+
+    .img-link{
+        width: 70%;
+        padding-top: 25px;
+    
+    }
+
+    .img-big {
+        width: 60%;
+        padding-top: 25px;
+    }
+
+
+
+
+    p {
+        padding-right: 10px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .container {
+        display:grid;
+        height: 100vh;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 0.2fr 8fr 0.2fr;
+        grid-template-areas: 
+        "nav nav main"
+        "content1 content1 content1"
+        "footer footer footer"
+        ;
+    
+    }
+
+    .container-info {
+        display:grid;
+        height: 100vh;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 0.2fr 8fr 0.2fr;
+        grid-template-areas: 
+        "nav nav main"
+        "bild content1 content1"
+        "footer footer footer"
+        ;
+    }
+    video {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
