@@ -20,6 +20,9 @@ h1 {
     text-decoration: none;
     color: #1e1e1e;
     padding: 0 px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    hyphens: auto;
 }
 
 article {
@@ -34,13 +37,14 @@ hr{
 }
 
 h2 {
-    color: rgb(70, 70, 70);
-    font-size: 16px;
-    line-height: 24px;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    line-height: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    text-align: center;
-    padding-top: 10px;
+    font-weight: 100;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 h3 {
@@ -66,14 +70,42 @@ p {
     width: 500px;
 }
 
+.steckbrief-table {
+    font-family: sans-serif; 
+    font-size: 16px; 
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.steckbrief-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.steckbrief-table th {
+    width: 10%; 
+    text-align: left;
+font-weight: 500;   
+    padding: 5px;
+    border: 0px solid #ddd;
+    text-decoration: underline;
+}
+
+.steckbrief-table td {
+    width: 66.6%; /* 2/3 der Tabelle */
+    padding: 3px;
+    border: 0px solid #ddd;
+}
+
 li{
     color: #1e1e1e;
 
 }
 a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 16px;
     text-decoration: none;
+    text-align: center;
 }
 
 .myHover {
@@ -107,7 +139,6 @@ position: fixed;
 ul li {
    list-style: none;
    display: inline-block;
-   float: right;
    line-height: 50px;
 }
 
@@ -115,7 +146,7 @@ ul li a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     color: #1e1e1e;
     padding: 0 10px;
@@ -128,6 +159,43 @@ text-decoration: underline;
  a:active {
     text-decoration: underline;
     }
+
+
+    #content2 {
+        text-align: center; 
+        padding-top: 100px;
+    }
+    
+    #content2 ul {
+    
+        list-style: none; 
+        padding: 0;
+    }
+    
+
+    
+    #content2 ul li a {
+        display: inline-block; 
+        padding: 10px 20px; 
+        color: rgb(0, 0, 0); 
+        text-decoration: underline;        
+        font-family: monospace;  
+        font-size: 15px; 
+       
+    }
+    
+    #content2 ul li a:hover {
+        text-decoration: none;
+        color: rgb(190, 190, 190);
+    }
+
+    iframe {
+        width: 100%; /* Full width */
+        height: 700px; /* Set height */
+        margin-top: 100px;
+    }
+
+
 
 
 
@@ -246,16 +314,9 @@ footer {
 }
 body{
     height: 100vh;
-    display: flex;
   
 }
 
-.slider {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-
-}
 
 .images {
     display: flex;
@@ -269,26 +330,24 @@ body{
 
 /* Allgemeine Button-Stile */
 button {
-    background-color: #808080; /* Grau */
-    color: white; /* Textfarbe */
-    border: none; /* Keine Umrandung */
-    padding: 10px 20px; /* Innenabstand */
-    font-size: 16px; /* Schriftgröße */
-    font-family: Arial, Helvetica, sans-serif; /* Schriftart */
-    border-radius: 15px; /* Abgerundete Ecken */
-    cursor: pointer; /* Zeigt die Hand an, wenn man drüber fährt */
-    text-decoration: none; /* Keine Unterstreichung */
-    display: inline-block; /* Macht den Button inline */
-    transition: background-color 0.3s ease; /* Sanfte Übergangsanimation */
+    background-color: #808080; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    border-radius: 15px; 
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block; 
+    transition: background-color 0.3s ease; 
 }
 
-/* Hover-Effekt */
 button:hover {
-    background-color: #e1e1e1; /* Etwas dunkleres Grau beim Hover */
+    background-color: #e1e1e1; 
 
 }
 
-/* Für Links, die wie Buttons aussehen */
 a.button-link {
     display: inline-block;
     background-color: #b9b9b9; /* Grau */
@@ -297,12 +356,12 @@ a.button-link {
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
-    text-decoration: none; /* Keine Unterstreichung */
+    margin-bottom: 10px;
     transition: background-color 0.3s ease;
 }
 
 a.button-link:hover {
-    background-color: #eaeaea; /* Etwas dunkleres Grau beim Hover */
+    background-color: #eaeaea; 
 }
 
 
@@ -346,6 +405,7 @@ a.button-link:hover {
     
     }
 
+    
     .container-info {
         display:grid;
         height: 100vh;
@@ -364,4 +424,16 @@ a.button-link:hover {
     }
 
 
+    .image-gallery {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .experiment-img {
+        width: 48%;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+    
 }
