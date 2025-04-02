@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+
+
+        <div id="content1">
+            <h2>01: Remixing</h2>
+            <ul>
+                <a href="index.html" class="button-link">Main</a>
+                <a href="experiments.html" class="button-link">Experiments</a>
+            </ul>
+
+        <main>
+
+
+            
+
+
+                <section id="steckbrief">
+                    <h3>Remixing & Recontextualizing – Hacking existing content & styles (Zine Culture).<br>
+                        Disrupting Ownership – Questioning the concept of authorship & ownership by merging only borrowed sources.<br>
+                        Subversion – Bypassing / ignoring creative and legal constraints through copying.<br>
+                        Mocking Authority – Questioning (but also celebrating?) dogmatic approaches to copyright and design rules.</h3>
+
+                    <table class="steckbrief-table">
+                        <tr>
+                            <th>What</th>
+                            <td>Book (Process, Object, Copyright?)</td>
+                        </tr>
+                        <tr>
+                            <th>Sources</th>
+                            <td>Federal Act on Copyright and Related Rights<br>
+                                Copiez ce livre, Eric Schrijver<br>
+                                Grid Systems in Graphic Design, Josef Müller-Brockmann<br>
+                                Schriften, 1925-1974, Jan Tschichold<br>
+                                Das Schweizer Plakat. The Swiss Poster. L'affiche suisse. 1900 -1983 , Bruno Margadant
+                             </td>
+                        </tr>
+                        <tr>
+                            <th>Tools</th>
+                            <td>Copy machine, InDesign, Printer, Thread+Needle</td>
+                        </tr>
+                        <tr>
+                            <th>Steps</th>
+                            <td>1. Borrow Books in Library, print Federal Act on Copyright(Google it); <br>
+                                2. Copy Pages; <br>
+                                3. Collaging to new meanings<br>
+                                4. Scan new Layouts<br>
+                                5. InDesign: Layout and Print Brochure<br>
+                                6. Assembling the Zine<br>
+                                </td>
+                        </tr>
+                        <tr>
+                            <th>Output</th>
+                            <td>Zine</td>
+                        </tr>
+                    </table>
+
+    
+                    <section id="image-gallery">
+                        <img src="img/01/zine-0.jpg" alt="0" />
+                        <img src="img/01/zine-1.jpg" alt="1" />
+                        <img src="img/01/zine-2.jpg" alt="2" />
+                        <img src="img/01/zine-3.jpg" alt="3" />
+                        <img src="img/01/zine-4.jpg" alt="4" />
+                        <img src="img/01/zine-5.jpg" alt="5" />
+
+                    </section>
+
+
+
+    </div>
+
+
+</body>
+</html>
