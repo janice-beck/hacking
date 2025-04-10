@@ -281,7 +281,7 @@ button:hover {
 
 a.button-link {
     display: inline-block;
-    background-color: #00ff08; /* Grau */
+    background-color: #eaeaea; /* Grau */
     color: rgb(0, 0, 0); /* Textfarbe */
     padding: 10px 20px;
     font-size: 19px;
@@ -292,7 +292,7 @@ a.button-link {
 }
 
 a.button-link:hover {
-    background-color: #eaeaea; 
+    background-color: #00ff08; 
 }
 
 
