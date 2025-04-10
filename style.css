@@ -206,77 +206,6 @@ a[href^="mailto:"]:hover {
 }
 
 
-.img-schrift{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
-
-}
-
-.img-info {
-    width: 250px;
-    border-radius: 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.img-big {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
-
-}
-
-.img-olu:hover {
-    background: url(img/O_Poster.jpg) no-repeat;
-}
-
-.img-olu {
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-
-}
-
-.img-link{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-
-}
-
-.img-schrift:hover {
-background-size: 200%;
-}
-
-.img-info:hover {
-    rotate: -3deg;
-}
-
-.img-pro{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    padding-top: 50px;
-
-}
-
-
-
-video {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    padding: 15px;
-}
-   
-
 .container {
     display:grid;
     height: 100vh;
@@ -332,7 +261,7 @@ body{
 
 /* Allgemeine Button-Stile */
 button {
-    background-color: #ff7700; 
+    background-color: #e1e1e1; 
     color: white; 
     border: none; 
     padding: 10px 20px; 
@@ -346,7 +275,7 @@ button {
 }
 
 button:hover {
-    background-color: #e1e1e1; 
+    background-color: #ff7700; 
 
 }
 
