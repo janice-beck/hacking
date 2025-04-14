@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+
+
+        <div id="content1">
+            <h1>Framework</h1>
+            <ul>
+                <a href="index.html" class="button-link">Main</a>
+                <a href="experiments.html" class="button-link">Experiments</a>
+            </ul>
+
+        <main>
+
+
+            
+
+
+                <section id="steckbrief">
+                    <h3>How the Experiments are structured. </h3>
+                        <br>
+                        <br>
+                        <br>
+
+      
+
+                        <section id="image-gallery">
+                            <h3>14.04. </h3>
+                            <img src="img/framework/FW_150414.jpeg" alt="0" />
+                            <h3>10.04. </h3>
+                            <img src="img/framework/FW_150410.jpeg" alt="2" />
+            
+
+                            
+    
+                        </section>
+
+
+                  
+
+    
+                    
+
+
+
+    </div>
+
+
+</body>
+</html>
