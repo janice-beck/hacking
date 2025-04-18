@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .text-container {
+             display: flex; 
+             justify-content: space-between; 
+             gap: 20px; 
+         }
+ 
+         .text-field {
+             width: 60%; 
+             height: 400px; 
+             padding: 10px;
+             font-family: monospace;
+             font-size: 18px;
+             overflow: auto; 
+             white-space: pre-wrap;
+             color: #ffffff;
+             background-color: #222222; 
+             margin-bottom: 20px;
+             margin-top: 20px;
+ 
+ 
+         }
+     </style>
+
+</head>
+<body>
+
+
+        <div id="content1">
+            <h2>2.1: Grid/Margin</h2>
+            <ul>
+                <a href="index.html" class="button-link">Main</a>
+                <a href="experiments.html" class="button-link">Experiments</a>
+            </ul>
+
+        <main>
+
+
+            
+
+
+                <section id="steckbrief">
+                    <h3>Each page has a new system.
+                        Using Basil.js, to automate randomized margins in InDesign to generate unpredictability inside a tool built for control.
+                        The grid, usually a symbol of order, becomes a device for disorder.</h3>
+
+                    <table class="steckbrief-table">
+                        <tr>
+                            <th>What</th>
+                            <td>Layout/Margin</td>
+                        </tr>
+                        <tr>
+                            <th>Sources</th>
+                            <td><a href="https://basiljs2.netlify.app/">basil.js</a> </td>
+
+                        </tr>
+                        <tr>
+                            <th>Tools</th>
+                            <td>InDesign, Sublime Text, basil.js library</td>
+                        </tr>
+                        <tr>
+                            <th>Steps</th>
+                            <td>1. Set Up Code (below); <br>
+                                2. Execute in Indesign<br>
+                                </td>
+                        </tr>
+                        <tr>
+                            <th>Output</th>
+                            <td>Layout Base/Grid</td>
+                        </tr>
+                    </table>
+
+    
+                    <section id="image-gallery">
+                        <img src="img/3_grid/randomgrid.jpg" alt="0" />
+               
+     
+
+                    </section>
+
+                    <h3>CODE:                    </h3>
+
+
+                <div class="text-container">
+                    <div class="text-field">
+// @includepath ~/Documents/;%USERPROFILE%Documents;
+// @include basiljs/basil.js;
+                        
+function draw() {
+units(MM);                      
+addPage();
+                        
+var marginTop = random(20, 60);
+var marginBottom = random(20, 60);
+var marginLeft = random(20, 60);
+var marginRight = random(20, 60);
+                        
+size("A4", PORTRAIT);
+margins(marginTop, marginLeft, marginBottom, marginRight);
+canvasMode(MARGIN);
+                        
+ }
+                        
+                    
+                        
+</div>
+                
+                    </div>
+
+    </div>
+
+
+</body>
+</html>
