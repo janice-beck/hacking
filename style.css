@@ -106,6 +106,7 @@ li{
 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    color: #01d008;
     text-decoration: none;
     text-align: center;
 }
@@ -117,16 +118,6 @@ a {
 
 }
 
-a[href^="mailto:"] { 
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    line-height: 24px;
-    padding-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    width: 400px;
-    text-decoration: underline;
-}
 
 
 
@@ -199,11 +190,19 @@ text-decoration: underline;
 
 
 
-
+    #image-gallery img {
+        width: 100%;
+        max-width: 1200px;  /* or whatever width you want */
+        height: auto;
+        display: block;
+        image-rendering: auto; /* optional: for pixel art you can use crisp-edges */
+      }
+      
 
 a[href^="mailto:"]:hover { 
     color: rgb(99, 89, 233);
 }
+
 
 
 .container {
@@ -258,7 +257,6 @@ body{
     width: 200px;
     transition: all 0.15s ease;
 }
-
 /* Allgemeine Button-Stile */
 button {
     background-color: #e1e1e1; 
@@ -296,25 +294,6 @@ a.button-link:hover {
 }
 
 
-@media only screen and (min-width: 136px) {
-
-    .img-schrift{
-        width: 60%;
-        padding-top: 25px;
-    }
-
-    .img-link{
-        width: 70%;
-        padding-top: 25px;
-    
-    }
-
-    .img-big {
-        width: 60%;
-        padding-top: 25px;
-    }
-
-
 
 
     p {
@@ -348,6 +327,11 @@ a.button-link:hover {
         "footer footer footer"
         ;
     }
-  
+
+    .experiment-img {
+        width: 48%;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
     
 }
