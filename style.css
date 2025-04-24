@@ -194,10 +194,10 @@ text-align: left;
 
     #image-gallery img {
         width: 100%;
-        max-width: 1200px;  /* or whatever width you want */
+        max-width: 1200px;  
         height: auto;
         display: block;
-        image-rendering: auto; /* optional: for pixel art you can use crisp-edges */
+        image-rendering: auto;
       }
       
 
@@ -259,7 +259,7 @@ body{
     width: 200px;
     transition: all 0.15s ease;
 }
-/* Allgemeine Button-Stile */
+
 button {
     background-color: #e1e1e1; 
     color: white; 
@@ -275,7 +275,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff7700; 
+    background-color: #fba4ff; 
 
 }
 
@@ -292,7 +292,7 @@ a.button-link {
 }
 
 a.button-link:hover {
-    background-color: #00ff08; 
+    background-color: #ff88f2; 
 }
 
 
