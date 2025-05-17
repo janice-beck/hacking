@@ -191,14 +191,29 @@ text-align: left;
     }
 
 
+.slider-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 1rem;
+    }
+    
+    .slider-track {
+    display: inline-flex;
+    gap: 1rem;
+    }
+    
+    .slider-track img {
 
-    #image-gallery img {
-        width: 100%;
-        max-width: 1200px;  
-        height: auto;
-        display: block;
-        image-rendering: auto;
-      }
+    height: 400px;
+    flex-shrink: 0;
+  
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+.images img {
+    width: 200px;
+    transition: all 0.15s ease;
+}
       
 
 a[href^="mailto:"]:hover { 
