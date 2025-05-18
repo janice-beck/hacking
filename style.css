@@ -51,7 +51,7 @@ h2 {
 h3 {
     color: rgb(0, 0, 0);
     font-size: 17px;
-    line-height: 19px;
+    line-height: 19.5px;
     padding-top: 55px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
@@ -260,7 +260,7 @@ body{
     width: 200px;
     transition: all 0.15s ease;
 }
-/* Allgemeine Button-Stile */
+
 button {
     background-color: #e1e1e1; 
     color: white; 
