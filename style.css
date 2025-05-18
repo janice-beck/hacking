@@ -254,11 +254,10 @@ img {
     }
     
     .slider-track img {
-
-    height: 400px;
-    flex-shrink: 0;
-  
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        height: 400px;
+        width: auto;
+        flex-shrink: 0;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
 
 .images img {
