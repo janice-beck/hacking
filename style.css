@@ -191,7 +191,9 @@ text-align: left;
         margin-top: 100px;
     }
 
-      
+
+
+
 
 a[href^="mailto:"]:hover { 
     color: rgb(99, 89, 233);
@@ -211,6 +213,7 @@ a[href^="mailto:"]:hover {
     ;
 
 }
+
 
 
 
@@ -235,13 +238,6 @@ body{
   
 }
 
-img {
-    max-width: 1200px;
-    width: 100%;
-    height: auto;
-}
-
-
 .slider-container {
     overflow-x: auto;
     white-space: nowrap;
@@ -264,7 +260,7 @@ img {
     width: 200px;
     transition: all 0.15s ease;
 }
-
+/* Allgemeine Button-Stile */
 button {
     background-color: #e1e1e1; 
     color: white; 
@@ -280,8 +276,14 @@ button {
 }
 
 button:hover {
-    background-color: #fba4ff; 
+    background-color: #ff7700; 
 
+}
+
+img {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
 }
 
 a.button-link {
@@ -297,7 +299,7 @@ a.button-link {
 }
 
 a.button-link:hover {
-    background-color: #ff88f2; 
+    background-color: #00ff08; 
 }
 
 
