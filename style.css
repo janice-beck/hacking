@@ -51,16 +51,28 @@ h2 {
 h3 {
     color: rgb(0, 0, 0);
     font-size: 17px;
-    line-height: 19.5px;
+    line-height: 19px;
     padding-top: 55px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 100;
+    width: 70%;
+
+}
+
+h4 {
+    color: rgb(168, 168, 168);
+    font-size: 15px;
+    line-height: 19px;    
+    letter-spacing: 0.2em;
+    padding-top: 30px;
+    font-family: monospace;
     text-align: left;
     font-weight: 100;
     margin-left: 20px;
     width: 70%;
 
 }
-
 
 p {
     color: rgb(70, 70, 70);
@@ -78,7 +90,7 @@ p {
     font-size: 14px; 
     line-height: 1.3em;
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .steckbrief-table {
@@ -129,22 +141,21 @@ nav {
 }
 ul {
 margin-left: 0px;
-position: fixed;
 }
 
 ul li {
    list-style: none;
-   display: inline-block;
-   line-height: 50px;
+display: inline-block;
+   line-height: 40px;
 }
 
 ul li a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
     color: #1e1e1e;
-    padding: 0 10px;
+
 }
 
 ul li a:hover {
@@ -260,7 +271,7 @@ body{
     width: 200px;
     transition: all 0.15s ease;
 }
-
+/* Allgemeine Button-Stile */
 button {
     background-color: #e1e1e1; 
     color: white; 
