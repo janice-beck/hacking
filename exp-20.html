@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+            
+</head>
+<body>
+
+
+        <div id="content1">
+            <h2>1.9: Font (FAILED)</h2>
+            <ul>
+                <a href="index.html" class="button-link">Main</a>
+                <a href="experiments.html" class="button-link">Experiments</a>
+            </ul>
+
+        <main>
+
+
+            
+
+
+            <section id="steckbrief">
+                <h3>  I tried to make a font that looks normal on screen but 
+                    quietly shifts when printed — a small act of misbehaving type. 
+                    It didn’t really work as planned. Turns out, fonts are deeply conservative technologies — designed for stability, not subversion. This process exposed the limits of authorship in typography: I could design an alternative behavior, but I couldn’t control when (or if) it would appear. Ironically, the only way to make the effect visible was to manually intervene. 
+                    <br> The Image below shows the idea.
+                    
+                    <br><br>
+                    This felt like a waste of time and was very frustrating. However, I experienced a moment of joy while I was attacking the DIN typeface.                </h3>
+
+                <table class="steckbrief-table">
+                    <tr>
+                        <th>What</th>
+                        <td>Layout, Text hierarchy</td>
+                    </tr>
+                    <tr>
+                        <th>Sources</th>
+                        <td>DINPro Font (Medium Condensed)</td>
+
+                    </tr>
+                    <tr>
+                        <th>Tools</th>
+                        <td>I tried FontForge and Glyphs; Word, InDesign, TextEdit – to test behavior across software; PDF export, Print Preview – to observe visual changes</td>
+                    </tr>
+                    <tr>
+                        <th>What I tried</th>
+                        <td>Created .calt alternates for all letters (a.calt, b.calt, etc.)<br>
+                            Wrote OpenType substitution rules (sub a by a.calt, etc.) <br>
+                            Also tried contextual substitution (sub a' b by a.calt;)<br>
+                            Attempted feature switching using:
+
+    ss01 and
+
+
+    calt
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Output</th>
+                        <td>Din Unprofessional (Fontfile with distorted Glyphs)</td>
+                    </tr>
+         
+         
+                </table>
+
+                
+
+    
+                <section id="image-gallery">
+                    <img src="img/1_Form/din-unpro1.png" alt="0" />
+           
+ 
+
+                </section>
+
+
+
+
+             
+                        
+</div>
+                
+                    </div>
+
+    </div>
+
+
+</body>
+</html>
