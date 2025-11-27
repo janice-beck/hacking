@@ -367,7 +367,7 @@ a.button-link:hover {
     }
 
 .special-button {
-    background-color: #ff3366; 
+    background-color: #F5EB27; 
     color: white;
     padding: 10px 20px;
     display: inline-block;
@@ -376,6 +376,6 @@ a.button-link:hover {
 }
 
 .special-button:hover {
-    background-color: #e62958; /* darker hover tone */
+    background-color: #F5A627;
 }
 
