@@ -365,4 +365,17 @@ a.button-link:hover {
         border-radius: 5px;
         border: 1px solid #ddd;
     }
-    
+
+.special-button {
+    background-color: #ff3366; 
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.special-button:hover {
+    background-color: #e62958; /* darker hover tone */
+}
+
